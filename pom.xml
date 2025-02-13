@@ -14,22 +14,19 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.8</version>  <!-- Version stable pour Java 11 -->
+        <version>2.7.8</version>
     </parent>
-
-<!--
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.1.2</version> &lt;!&ndash; Vérifiez que cette version est correcte &ndash;&gt;
-        <relativePath/> &lt;!&ndash; Supprimez cette ligne si le parent est dans un repository distant &ndash;&gt;
-    </parent>
--->
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-ui</artifactId>
+            <version>1.7.0</version>
         </dependency>
 
         <dependency>
